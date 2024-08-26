@@ -10,19 +10,19 @@
 - [How to Run](#how-to-run)
 - [Acknowledgments](#acknowledgments)
 
-## Dataset
+## Dataset <a id="dataset"></a>
 We used the [Flickr8k Dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k) from Kaggle, which contains 8,000 images and 40,000 captions.
 
-## Model Architecture
+## Model Architecture <a id="model-architecture"></a>
 The model utilizes ResNet-152 as a feature extractor and LSTM as the caption generator.
 
 ![image](https://github.com/user-attachments/assets/561e989f-7ffb-4770-8784-419df7abcae1)
 
 
-## Training
+## Training <a id="training"></a>
 We split the dataset into 90% for training and 10% for validation. The loss function used is categorical cross-entropy, and the optimizer is Adam.
 
-## Results
+## Results <a id="results"></a>
 
 ![image](https://github.com/user-attachments/assets/b45cdec5-c5b8-407a-aa6c-a2187afa8b2b)
 
